@@ -1,0 +1,151 @@
+.body{
+    height: 1000px;
+    width: 1800px;
+    background-color: ;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    
+}
+.top{
+    height: 100px;
+    width: 1800px;
+    background-color: brown;
+    display: flex;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    background: url(p5.png);
+}
+.list{
+    display: flex;
+    color: white;
+    padding-left: 900px;
+    gap: 30px;
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+
+}
+.parent{
+    height: 1000px;
+    width: 1350px;
+    background-color: ;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+    gap: 30px;
+    margin-top: 250px;
+}
+
+@keyframes move1{
+    0%{
+        transform: translateY(-100px);
+        border-radius: 30px;
+    }
+    100%{
+        transform: translateY(0px);
+        border-radius: 20px;
+    }
+}
+.c1{
+    background-color: aqua;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    background: url(u1.jfif);
+
+}
+
+.c2{
+    background-color: blue;
+    grid-row-start: 1;
+    grid-row-end:5;
+    background: url(o2.jfif);
+
+}
+.c3{
+    background-color: blueviolet;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    background: url(o3.jfif);
+}
+.c4{
+    background-color: chocolate;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    background: url(o4.jfif);
+}
+.c5{
+    background-color: chartreuse;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    background: url(o5.jfif);
+
+}
+.c11{
+    background-color: cadetblue;
+    grid-row-start: 5;
+    grid-row-end: 9;
+    background: url(o6.jfif);
+}
+.c6{
+    background-color: crimson;
+    grid-row-start: 5;
+    grid-row-end: 9;
+    background: url(o7.jfif);
+}
+.c7{
+    background-color: cornflowerblue;
+    grid-row-start: 5;
+    grid-row-end: 9;
+    background: url(o8.jfif);
+}
+        
+
+
+
+.c8{
+    background-color: chartreuse;
+    grid-row-start: 5;
+    grid-row-end: 9;
+    background: url(o9.jfif);
+}
+
+
+.c9{
+    background-color: chartreuse;
+    grid-row-start: 5;
+    grid-row-end: 9;
+    background: url(o10.jfif);
+}
+.c10{
+    background-color: chartreuse;
+    grid-row-start: 9;
+    grid-row-end: 13;
+    background: url(o11.jfif);
+}
+.c12{
+    background-color: chartreuse;
+    grid-row-start: 9;
+    grid-row-end: 13;
+    background: url(o12.jfif);
+}
+.c13{
+    background-color: chartreuse;
+    grid-row-start: 9;
+    grid-row-end: 13;
+    background: url(o13.jfif);
+}
+.c14{
+    background-color: chartreuse;
+    grid-row-start: 9;
+    grid-row-end: 13;
+    background: url(o14.jfif);
+
+}
+.c15{
+    background-color: chartreuse;
+    grid-row-start: 9;
+    grid-row-end: 13;
+    background: url(o15.jfif);
+}
+

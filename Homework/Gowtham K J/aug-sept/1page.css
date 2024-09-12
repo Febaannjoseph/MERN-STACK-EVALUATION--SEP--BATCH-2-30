@@ -1,0 +1,42 @@
+.body{
+    height: 700px;
+    width: 1500px;
+    background-color:;
+    display: flex;
+    background: url(p4.jfif);
+}
+.left{
+    height: 700px;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backgrou
+}
+.center{
+    height: 400px;
+    width: 400px;
+
+}
+.right{
+    height: 700px;
+    width: 300px;
+}
+.top{
+    height: 200px;
+    width: 750px;
+
+}
+.content{
+    height: 400px;
+    width: 500px;
+    background-color: ;
+    padding-top: 20px;
+    padding-left: 100px;
+}
+.p1{
+    height: 5px;
+}
+.p3{
+    height: 5px;
+}

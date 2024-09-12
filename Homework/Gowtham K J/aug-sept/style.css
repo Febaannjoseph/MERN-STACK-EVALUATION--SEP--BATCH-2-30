@@ -1,0 +1,48 @@
+.body{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    
+}
+.left{
+    height: 400px;
+    width: 200px;
+    background-color: red;
+}
+.aside{
+    height: 500px;
+    width: 300px;
+
+    
+}
+.top{
+    height: 100px;
+    width: 300px;
+    background-color: aqua;
+}
+.content{
+    height: 400px;
+    width: 300px;
+    display: flex;
+    
+}
+
+.index{
+    height: 400px;
+    width: 150px;
+}
+.center{
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+}
+.aqua{
+    height: 150px;
+    width: 150px;
+    background-color: darkgreen;
+}
+.right{
+    height: 300px;
+    width: 150px;
+    background-color: blue;
+}

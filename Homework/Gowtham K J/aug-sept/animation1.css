@@ -1,0 +1,15 @@
+.body{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    animation: moveto 3s ease forwards;
+}
+@keyframes moveto{
+    0%{
+        transform: translateX(-200px);
+
+    }
+    100%{
+        transform: translateX(200px);
+    }
+}

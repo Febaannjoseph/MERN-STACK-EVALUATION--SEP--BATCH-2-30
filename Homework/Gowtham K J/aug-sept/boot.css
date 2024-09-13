@@ -1,0 +1,34 @@
+.body{
+    height: 800px;
+    width: 1200px;
+    background: url(cyber.jfif);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.top{
+    height: 100px;
+    width: 1200px;
+display: flex;
+}
+.roxine{
+    height: 100px;
+    width: 600px;
+    padding-left: 30px;
+}
+.list{
+    height: 100px;
+    width: 600px;
+    display: flex;
+}
+*{list-style: none;}
+.things{
+    display: flex;
+    gap: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.content{
+    height: 600px;
+    width: 1200px;
+
+}

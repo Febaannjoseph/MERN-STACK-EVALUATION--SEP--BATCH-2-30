@@ -1,0 +1,115 @@
+.body{
+    height: 1000px;
+    width: 1500px;
+    color: white;
+    font-family: 'poppins',sans-serif;
+}
+.content{
+    background: url(nn.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 1500px;
+    height: 600px;
+}
+.top{
+    height: 80px;
+    width: 1500px;
+    display: flex;
+    position: sticky;
+    top: 0px;
+}
+.left{
+    height: 80px;
+    width: 900px;
+    display: flex;
+    align-items: center;
+}
+.list{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    padding-right: 10px;
+}
+.right{
+    height: 80px;
+    width: 600px;
+}
+.b1{
+    width: 1500px;
+    height: 200px;
+}
+.b2{
+    height: 100px;
+    width: 1500px;
+}
+.b3{
+    height: 300px;
+    width: 1500px;
+}
+.bottom{
+    height: 300px;
+    width: 1500px;
+    background-color: black;
+}
+.b4{
+    height: 80px;
+    width: 1500px;
+    padding-left: 25px;
+    display: flex;
+    align-items: center;
+
+}
+.b5{
+    height: 320px;
+    width: 1500px;
+    display: flex;
+    gap: 5px;
+}
+.p1{
+    height: 320px;
+    width: 250px;
+    background-color: white;
+    background: url(n1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.p2{
+    height: 320px;
+    width: 250px;
+    background-color: white;
+    background: url(n2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.p3{
+    height: 320px;
+    width: 250px;
+    background-color: white;
+    background: url(n3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.p4{
+    height: 320px;
+    width: 250px;
+    background-color: white;
+    background: url(n4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.p5{
+    height: 320px;
+    width: 250px;
+    background-color: white;
+    background: url(n5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.p6{
+    height: 320px;
+    width: 250px;
+    background-color: white;
+    background: url(n6.jpg);
+    background-position: center;
+    background-size: cover;
+}

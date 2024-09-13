@@ -1,0 +1,39 @@
+.body{
+    height: 500px;
+    width: 70px;
+}
+.header{
+    height: 20px;
+    width: 70px;
+    background-color: black;
+}
+.menu{
+    height: 20px;
+    width: 70px;
+    background-color: red;
+}
+.hero{
+    height: 60px;
+    width: 70px;
+    background-color: cornflowerblue;
+}
+.main{
+    height: 60px;
+    width: 70px;
+    background-color: blue;
+}
+.banner{
+    height: 40px;
+    width: 70px;
+    background-color: yellow;
+}
+.extra{
+    height: 40px;
+    width: 70px;
+    background-color: green;
+}
+.image{
+    height: 40px;
+    width: 70px;
+    background-color: cyan;
+}

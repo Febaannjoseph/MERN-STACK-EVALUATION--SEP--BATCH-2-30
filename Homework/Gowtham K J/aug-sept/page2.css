@@ -1,0 +1,48 @@
+.body{
+    height: 700px;
+    width: 1400px;
+    background-color: black;
+    display: flex;
+}
+.left{
+    height: 700px;
+    width: 300px;
+    background-color: black;
+    margin-top: 100px;
+}
+.right{
+    height: 800px;
+    width: 1100px;
+    background-color: black;
+}
+.top{
+    height: 100px;
+    width: 1100px;
+    background-color: black;
+    display: flex;
+    gap: 15px;
+}
+.content{
+    height: 400px;
+    width: 400px;
+    background-color: grey;
+    border-radius: 30px;
+    padding-top: 50px;
+}
+.pic{
+    height: 150px;
+    width: 350px;
+    background-color: white;
+    margin-left: 25px;
+    border-radius: 30px;
+    background: url(pic1.jfif);
+    background-position: center;
+    background-size: cover;
+}
+.discription{
+    height: 350px;
+    width: 400px;
+    margin-left: 40px;
+}
+
+

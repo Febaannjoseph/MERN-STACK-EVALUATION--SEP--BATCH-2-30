@@ -1,0 +1,51 @@
+v .body{
+    height: 500px;
+    width: 600px;
+}
+.top{
+    height: 100px;
+    width: 600px;
+}
+.header{
+    height: 100px;
+    width: 200px;
+    background-color: blue;
+}
+.menu{
+    height: 10px;
+    width: 400px;
+}
+.hero{
+    height: 200px;
+    width: 600px;
+    background-color: aqua;
+}
+.content{
+    height: 75px;
+    width: 600px;
+    display: flex;
+}
+.main{
+    height: 75px;
+    width: 300px;
+    background-color: darkblue;
+}
+.aside{
+    height: 80px;
+    width: 150px;
+}
+.image{
+    height: 40px;
+    width: 150px;
+    background-color: aqua;
+}
+.extra{
+    height: 40px;
+    width: 150px;
+    background-color: green;
+}
+.banner{
+    height: 60px;
+    width: 600px;
+    background-color: yellow;
+}

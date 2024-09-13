@@ -1,0 +1,43 @@
+.body{
+    height: 700px;
+    width: 1200px;
+    background: url(new.jpg);
+    color: white;
+    background-position: center;
+    background-size: cover;
+}
+.top{
+    height:100px;
+    width: 1200px;
+    display: flex;
+
+}
+.grax{
+    height: 100px;
+    width: 600px;
+    padding-left: 100px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.things{
+    height: 100px;
+    width: 600px;
+    padding-left: 250px;
+    padding-top: 10px;
+}
+.list{
+    display: flex;
+    gap: 25px;
+}
+*{
+    list-style: none;
+}
+.content{
+    height: 400px;
+    width: 600px;
+    padding-left: 200px;
+    margin-top: 250PX;
+    gap: 10px;
+}

@@ -1,0 +1,99 @@
+.body{
+    height: 1200px;
+    width: 1500px;
+    background: url(p5.png);
+}
+.header{
+    height: 70px;
+    width: 1500px;
+    padding-top: 20px;
+}
+
+.top{
+    height: 300px;
+    width: 1500px;
+}
+.l1{
+    height: 50px;
+    padding-left: 715px;
+}
+
+.l2{
+    height: 20px;
+    padding-left: 680px;
+}
+.l3{
+    height: 50px;
+    padding-left: 650px;
+    display: flex;
+    gap: 30px;
+}
+.l4{
+    padding-left: 625PX;
+    height: 50PX;
+    display: flex;
+    gap: 20px;
+    font-size: larger;
+
+}
+.center{
+    height: 60px;
+    padding-left: 700px;
+}
+.bottom{
+    height: 800px;
+    width: 1300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    padding-left: 300px;
+}
+.c1{
+    background-color: black;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background: url(a9.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.c2{
+    background-color: black;
+    grid-row-start: 1;
+grid-row-end: 3;
+background: url(a2.jpg);
+background-position: center;
+    background-size: cover;
+}
+.c5{
+    background-color: black;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background: url(a3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.c6{
+    background-color: black;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background: url(a5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.c9{
+    background-color: black;
+    grid-row-start: 5;
+    grid-row-end: 7;
+    background: url(a6.webp);
+    background-position: center;
+    background-size: cover;
+}
+.c10{
+    grid-row-start: 5;
+    grid-row-end: 7;
+    background-color: black;
+    background: url(a7.webp);
+    background-position: center;
+    background-size: cover;
+}

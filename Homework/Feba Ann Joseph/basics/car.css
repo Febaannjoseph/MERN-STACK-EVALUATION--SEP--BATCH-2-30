@@ -1,0 +1,128 @@
+.car{
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    margin-left: 350px;
+    margin-top: 80px; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+}
+
+
+.box1{
+    background-image: url(car1.jpeg) ;
+    border-radius: 10px;
+    place-items: center;
+    background-size: cover;
+    background-position: center;
+}
+.box2{
+    background-image: url(car2.jpeg);
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+.box3{
+    background-image: url(car3.jpeg);
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+.box4{
+    background-image: url(car4.jpeg);
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+.box5{
+   background-color: black;
+   background-image: url(carr.png);
+   border-radius: 10px;
+   background-size: cover;
+   background-position: center;
+   position: relative;
+   
+}
+.box6{
+    background-image: url(car6.jpeg);
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+.box7{
+    background-image: url(car7.jpeg);
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+.box8{
+    background-image: url(car8.jpeg);
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+.box9{
+    background-image: url(car5.jpeg);
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+.box1, .box2, .box3, .box4, .box6, .box7, .box8, .box9 {
+    background-size: cover;
+    border-radius: 10px;
+   
+    width: 100px;
+    height: 100px;
+    animation: movePositions 5s linear infinite;
+}
+
+.box1 { top: 0; left: 50%; transform: translate(-50%, -50%); animation-delay: 0s; }
+.box2 { top: 0; right: 0; transform: translate(50%, -50%); animation-delay: 0.5s; }
+.box3 { top: 50%; right: 0; transform: translate(50%, 0); animation-delay: 1s; }
+.box4 { bottom: 0; right: 0; transform: translate(50%, 50%); animation-delay: 1.5s; }
+.box6 { bottom: 0; left: 50%; transform: translate(-50%, 50%); animation-delay: 2s; }
+.box7 { bottom: 50%; left: 0; transform: translate(-50%, 0); animation-delay: 2.5s; }
+.box8 { top: 50%; left: 0; transform: translate(-50%, -50%); animation-delay: 3s; }
+.box9 { top: 0; left: 0; transform: translate(-50%, -50%); animation-delay: 3.5s; }
+
+.box5 {
+   background-color: black;
+   background-image: url(carr.png);
+   background-size: cover;
+   border-radius: 10px;
+   grid-area: 2 / 2;
+   position: relative; /* Center box remains fixed */
+}
+
+/* Keyframes for moving boxes to the next position */
+@keyframes movePositions {
+  0% {
+    top: 0; left: 50%; transform: translate(-50%, -50%); /* Initial position */
+  }
+  12.5% {
+    top: 0; right: 0; transform: translate(50%, -50%); /* Move to next */
+  }
+  25% {
+    top: 50%; right: 0; transform: translate(50%, 0); /* Move to next */
+  }
+  37.5% {
+    bottom: 0; right: 0; transform: translate(50%, 50%); /* Move to next */
+  }
+  50% {
+    bottom: 0; left: 50%; transform: translate(-50%, 50%); /* Move to next */
+  }
+  62.5% {
+    bottom: 50%; left: 0; transform: translate(-50%, 0); /* Move to next */
+  }
+  75% {
+    top: 50%; left: 0; transform: translate(-50%, -50%); /* Move to next */
+  }
+  87.5% {
+    top: 0; left: 0; transform: translate(-50%, -50%); /* Move to next */
+  }
+  100% {
+    top: 0; left: 50%; transform: translate(-50%, -50%); /* Return to start */
+  }
+}

@@ -1,0 +1,29 @@
+.left{
+    background-color: blue;
+    height: 500px;
+    width: 150px;
+}
+.top{
+    background-color: blueviolet;
+    height: 100px;
+    width: 200px;
+}
+.orange{
+    background-color: aquamarine;
+    height: 100px;
+    width: 100px;
+}
+.right{
+    background-color: aqua;
+}
+.bottom{
+    background-color: bisque;
+    height: 300px;
+    width: 100px;
+}
+.subcontainer{
+    display: flex;
+}
+.body{
+    display: flex;
+}

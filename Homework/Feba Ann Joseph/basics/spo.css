@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #121212;
+    overflow: hidden; /* Prevent scrolling */
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 20% 1fr 20%;
+    grid-template-rows: 1fr auto;
+    height: 100vh;
+}
+
+.sidebar {
+    background-color: #000;
+    padding: 20px;
+    border-right: 1px solid #282828;
+}
+
+.sidebar h2 {
+    margin-bottom: 20px;
+}
+
+.playlists {
+    margin-top: 20px;
+}
+
+.playlist-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    background-color: #282828;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.sidebar ul li img {
+    width: 30px;
+    margin-right: 15px;
+}
+
+.main-content {
+    padding: 20px;
+    background-color: #181818;
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.top-section .top-text h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    
+}
+
+.top-section .top-text p {
+    font-size: 14px;
+    color: #b3b3b3;
+}
+
+.play-btn {
+    background-color: #1db954;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.playlist ul {
+    margin-top: 20px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.playlist ul li {
+    background-color: #282828;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.playlist ul li img {
+    width: 50px;
+    margin-right: 15px;
+}
+
+.right-sidebar {
+    background-color: #000;
+    padding: 20px;
+    border-left: 1px solid #282828;
+    text-align: center;
+}
+
+.right-sidebar img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.right-sidebar h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    grid-column: 1 / 4;
+    background-color: #181818;
+    padding: 10px 20px;
+    text-align: center;
+    border-top: 1px solid #282828;
+}
+.h1{
+    display: flex;
+}

@@ -1,0 +1,32 @@
+.childone{
+    background-color: aqua;
+    color: black;
+    height: 100px;
+    width: 300px;
+    text-align: center;
+    
+}
+.childtwo{
+    background-color: aquamarine;
+    color: black;
+    height: 100px;
+    width: 300px;
+    text-align: center;
+}
+.childthree{
+    background-color: blue;
+    color: black;
+    height: 100px;
+    width: 300px;
+    text-align: center;
+    position: sticky;
+    top: 70px;
+}
+.childfour{
+    background-color: blueviolet;
+    color: black;
+    height: 400px;
+    width: 300px;
+    text-align: center;
+
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Property</title>
+    <link rel="stylesheet" href="property.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <button class="sidebar-btn">My Properties</button>
+            <button class="sidebar-btn">Add New Properties</button>
+            <button class="sidebar-btn">All Properties</button>
+            <button class="sidebar-btn">Favourites</button>
+            <button class="sidebar-btn">Inbox</button>
+            <button class="sidebar-btn">Reviews</button>
+            <button class="sidebar-btn">Go to Home</button>
+        </aside>
+
+        <main class="main-content">
+            <header class="header">
+                <h2 class="header-title">Add New Property</h2>
+                <input type="text" placeholder="Search here" class="search-bar">
+                <button class="add-listing">Add Listing</button>
+            </header>
+
+            <section class="property-form">
+                <div class="form-group">
+                    <label for="property-title">Property Title</label>
+                    <input type="text" id="property-title" placeholder="Your Property Name">
+                </div>
+
+                <div class="form-group">
+                    <label for="property-description">Property Description</label>
+                    <textarea id="property-description" placeholder="Write about property..."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="category">Category</label>
+                    <select id="category">
+                        <option value="home">Home</option>
+                        <option value="apartment">Apartment</option>
+                        <option value="office">Office</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="listed-in">Listed in</label>
+                    <select id="listed-in">
+                        <option value="sell">Sell</option>
+                        <option value="rent">Rent</option>
+                    </select>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>

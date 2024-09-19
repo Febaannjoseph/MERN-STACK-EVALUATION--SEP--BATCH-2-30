@@ -1,0 +1,49 @@
+.Header{
+    background-color: rgba(7, 9, 9, 0.89);
+    color: aliceblue;
+    height: 50px;
+    width: 400px;
+}
+.Hero{
+    background-color: rgb(128, 128, 194);
+    color: aliceblue;
+    height: 150px;
+    width: 400px;
+
+}
+.Menu{
+    background-color: rgb(234, 15, 26);
+    color: aliceblue;
+    height: 400px;
+    width: 100px;
+}
+.Main{
+    background-color: rgba(67, 14, 225, 0.888);
+    color: aliceblue;
+    height:200px;
+    width: 300px;
+}
+.Banner{
+    background-color: rgb(182, 214, 21);
+    color: aliceblue;
+    height: 100px;
+    width: 300px;
+}.Extra{
+    background-color: rgb(27, 196, 184);
+    color: aliceblue;
+    height: 100px;
+    width: 150px;
+}
+.Image{
+    background-color: rgb(69, 197, 247);
+    color: aliceblue;
+    height: 100px;
+    width: 150px;
+}
+.subcontainer{
+    display: flex;
+    .subcont{
+        display: flex;
+    }
+}
+}

@@ -1,0 +1,50 @@
+.navbar{
+    color: white;
+    font-size: 25px;
+    text-align: left;
+    margin-top: 5px;
+    position: absolute;
+    top: 20px;
+    left: 60px;
+    
+}
+
+
+.h1{
+    color: white;
+}
+.buttons{
+    color: white;
+    
+}
+body{
+    background-image: url(22.png);
+    background-size: cover;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.contents{
+    color: white;
+    padding-top: 190px;
+    padding-left: 50px;
+    font-size: 25px;
+}
+
+
+.View-Demo{
+    background-color: white;
+
+}
+.Buy-Now{
+    background-color:transparent;
+    color: white;
+    border-radius: 5px ;
+}
+.another{
+    text-align: right;
+    padding-top: 80px;
+    padding-right: 50px;
+    
+}

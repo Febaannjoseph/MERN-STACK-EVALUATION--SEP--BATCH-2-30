@@ -1,0 +1,74 @@
+<--!.Header, .Menu, .Hero, .Main, .Banner, .Image, .Extra {
+    display: flex; /* Enable flexbox */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    text-align: center; /* Center text inside the box */
+}-->
+
+
+
+
+
+
+
+
+
+
+
+.Header{
+    background-color: rgb(3, 3, 78);
+    height: 30px;
+    width: 200px;
+    color: white;
+    text-align: center;
+}
+.Menu{
+    background-color: rgb(240, 10, 167);
+    height: 30px;
+    width: 300px;
+    color: white;
+    text-align: centre;
+    
+}
+.Hero{
+    background-color: rgb(10, 165, 231);
+    height: 300px;
+    width: 500px;
+    color: white;
+    text-align: center;
+
+}.Main{
+    background-color: rgb(12, 12, 135);
+    height: 150px;
+    width: 250px;
+    color: white;
+    text-align: center;
+}
+.Banner{
+    background-color: rgb(158, 158, 30);
+    height: 90px;
+    width: 500px;
+    color: white;
+    text-align: center;
+}
+.Image{
+    background-color: aqua;
+    height: 75px;
+    width:125px ;
+    color: white;
+    text-align: center;
+}
+.Extra{
+    background-color: rgb(11, 125, 157);
+    height: 75px;
+    width: 125px;
+    color: white;
+    text-align: center;
+}
+.Body{
+    display: flex;
+}
+.Subcontainer{
+        display: flex;
+        gap: 125px;
+    }

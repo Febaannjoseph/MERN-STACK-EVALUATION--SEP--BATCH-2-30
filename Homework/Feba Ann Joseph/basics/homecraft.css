@@ -1,0 +1,49 @@
+/*.logo{
+    color:black;
+    font-size: 30px;
+    
+    margin-top: 5px;
+    position: absolute;
+    top: 20px;
+    margin-left: 20px;
+}*/
+
+
+.list{
+    
+   
+
+
+}
+.list a{
+    text-decoration: none;
+    color:black;
+    margin-left: 20px;
+   padding-top:30px ;
+   
+}
+.footer{
+    background-color: black;
+    color: white;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.contents{
+    background-color: greenyellow;
+    height: 380px;
+}
+.navbar{
+    display:flex ;
+    margin-left: 20px;
+}
+.startover{
+    background-color: brown;
+    height: 30px;
+    margin-left: 80px;
+    margin-top: 20px;
+    
+}

@@ -1,0 +1,38 @@
+body{
+    background-image: url(11.jpg);
+    background-size: cover;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.logo{
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    margin-top: 5px;
+    position: absolute;
+    top: 20px;
+    left: 60px;
+    
+}
+.contents{
+    color: white;
+    padding-top: 100px;
+    padding-left: 50px;
+    font-size: 25px;
+    
+
+}
+
+.list{
+    text-align: right;
+    word-spacing: 20px;
+    padding-right:60px ;
+    padding-top: 20px;
+}
+.list a{
+    text-decoration: none;
+    color: white;
+   
+}

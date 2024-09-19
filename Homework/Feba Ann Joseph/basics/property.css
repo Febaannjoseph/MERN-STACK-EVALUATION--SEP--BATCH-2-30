@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #1a1a1a;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-btn {
+    background-color: #1a1a1a;
+    color: #fff;
+    border: 1px solid #0056b3;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.sidebar-btn:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.header-title {
+    font-size: 24px;
+    white-space: nowrap;
+}
+
+.search-bar {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.add-listing {
+    background-color: #ff4500;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-listing:hover {
+    background-color: #ff6347;
+}
+
+.property-form {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.property-form h2 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+}
+
+.form-group textarea {
+    height: 100px;
+    resize: none;
+}

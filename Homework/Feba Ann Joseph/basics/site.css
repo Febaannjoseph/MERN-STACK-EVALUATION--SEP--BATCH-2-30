@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-section {
+    background-color: #ccf2e4;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.left-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.left-section p {
+    font-size: 18px;
+    color: #333;
+}
+
+.right-section {
+    flex: 1;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.right-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.social-login {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.google-login {
+    background-color: #ea4335;
+    color: white;
+    border: none;
+    padding: 10px;
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+    
+
+}
+
+.google-login img {
+    margin-left: 5px;
+    width: 28px;
+    height: 15px;
+    color: white;
+}
+
+.social-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.social-button.facebook { background-color: #3b5998;
+background-image: url(ff.png); }
+.social-button.twitter { background-color: #1da1f2; }
+.social-button.linkedin { background-color: #0077b5; }
+.social-button.apple { background-color: #000000; }
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="email"], input[type="password"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.checkbox {
+    margin-bottom: 20px;
+}
+
+.checkbox input {
+    margin-right: 10px;
+}
+
+.checkbox label a {
+    color: #009688;
+    text-decoration: none;
+}
+
+.login-button {
+    padding: 10px;
+    background-color: #009688;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.create-account {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.create-account a {
+    color: #009688;
+    text-decoration: none;
+}

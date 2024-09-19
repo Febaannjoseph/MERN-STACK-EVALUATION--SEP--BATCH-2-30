@@ -1,0 +1,48 @@
+.navbar{
+    background-color: rgb(78, 78, 170);
+    color: antiquewhite;
+    height: 100px;
+    justify-content: space-between;
+    text-decoration: none;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   text-align: right;
+   word-spacing: 20px;
+
+
+}
+
+
+.content{
+    background-color: blue;
+    color: antiquewhite;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-image:url(1.jpg);
+}
+.list a {
+
+text-decoration: none;
+color: azure;
+}
+.buttons{
+    background-color: rgb(57, 57, 154);
+
+}
+.logo{
+    color: white;
+    font-size: 30px;
+}
+.Demo{
+    background-color: rgb(93, 93, 186);
+    border-radius: 5px;
+}
+.Features{
+    background-color: rgb(138, 120, 204);
+    border-radius: 10px;
+}

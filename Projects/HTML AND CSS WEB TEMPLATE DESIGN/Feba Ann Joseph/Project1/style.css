@@ -1,0 +1,164 @@
+
+body {
+    font-family: 'Serif', Georgia;
+    background-color:whitesmoke; 
+}
+
+.navbar {
+    background-color: #4A3B31; 
+}
+
+.navbar-brand, .nav-link {
+    color: #D2A679 ;
+}
+
+.navbar-nav .nav-link.active {
+    text-decoration: underline;
+}
+
+.hero-section {
+    background: url(121.jpeg) no-repeat center center/cover;
+    color:black
+    height: 600px;
+}
+
+.product-card img {
+    height: 300px;
+    object-fit: cover;
+}
+
+.product-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.fade-in {
+    animation: fadeIn 2s ease-in-out;
+}
+
+
+.btn-primary {
+    background-color: #D2A679;
+    border-color: #D2A679;
+}
+
+.btn-primary:hover {
+    background-color: #b58960;
+    border-color: #b58960;
+}
+
+
+footer {
+    margin-top: 20px;
+    padding: 20px 0;
+    background-color: #4A3B31;
+}
+
+footer a {
+    color: #D2A679;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.products-section {
+    background-image: url(bb1.jpg); 
+    background-size: cover;
+    background-position: center;
+    padding-top: 0; 
+    margin-top: 0; 
+    padding-bottom: 50px; 
+}
+
+.products-section h2 {
+    color: #fff; 
+}
+
+.product-card {
+    background-color: rgba(255, 255, 255, 0.9); 
+}
+
+.text-light {
+    color: #fff;
+}
+.hero-section {
+    background-image: url(bb1.jpg); 
+    background-size: cover;
+    background-position: center;
+    color: #fff; 
+    padding-bottom: 0; 
+    margin-bottom: 0; 
+}
+
+.container mt-5{
+    background-image: url(121.jpg);
+    background-size: cover;
+}
+
+body.about-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+body.about-page .container {
+    flex: 1; 
+}
+
+footer {
+    margin-top: auto;
+    
+}
+body {
+    background-color: #f8f9fa;}
+
+
+.navbar {
+    background-color: #3e2723; }
+
+
+footer {
+    background-color: #3e2723; 
+    color: #ffffff;}
+
+
+.btn-primary {
+    background-color: #6d4c41; 
+    border-color: #6d4c41;
+}
+
+.btn-primary:hover {
+    background-color: #5b4033; 
+    border-color: #5b4033;
+}
+
+
+.form-control {
+    border-color: #6d4c41; 
+}
+
+.container.mt-5 {
+    margin-bottom: 5px;}
+
+
+form {
+    margin-bottom: 80px; }
+
+
+    
